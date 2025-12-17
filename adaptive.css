@@ -1,0 +1,210 @@
+/* @media (min-width: 450px) {
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav-ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__nav-ul-li {
+        display: flex;
+    }
+
+    .header__nav-ul-li-p1,
+    .header__nav-ul-li-p2,
+    .header__nav-ul-li-p3,
+    .header__nav-ul-li-p4 {
+        font-size: 15px;
+    }
+
+    .header__nav-img {
+        width: 180px;
+        height: 55px;
+    }
+
+    .section__nav {
+        display: flex;
+        margin-top: 25px;
+        background: url(./img/banner-zubi4.png)no-repeat;
+        width: 430px;
+        height: 260px;
+        background-size: auto 100;
+        border-radius: 30px;
+        box-shadow: 0px 5px 20px 8px #0000001A;
+    }
+
+} */
+
+/* @media (max-width: 800px) {
+
+    .header_nav-ul-li-p1,
+    .header_nav-ul-li-p2,
+    .header_nav-ul-li-p3,
+    .header_nav-ul-li-p4 {
+        font-size: 22px;
+    }
+
+    .header__nav-img {
+        width: 170px;
+        height: 55px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .header_nav-ul-li-p1,
+    .header_nav-ul-li-p2,
+    .header_nav-ul-li-p3,
+    .header_nav-ul-li-p4 {
+        font-size: 15px;
+    }
+
+
+} */
+
+@media (max-width: 1030px) {
+
+    .header__nav-ul-li-p1,
+    .header__nav-ul-li-p2,
+    .header__nav-ul-li-p3,
+    .header__nav-ul-li-p4 {
+        font-size: 22px;
+
+    }
+
+    .hero-section-text {
+        /* font-size: clamp(19px, 3vw, 24px); */
+        font-size: 24px;
+
+    }
+
+}
+
+@media (max-width: 970px) {
+
+
+    .section__nav-box-first {
+        top: 120px;
+    }
+
+    .section__nav-box-first p {
+        font-size: clamp(18px, 1vw, 28px);
+    }
+
+    .section__nav-box-first-one p {
+        font-size: clamp(15px, 1.5vw, 20px);
+    }
+
+    /* .info__nav {
+        grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
+    } */
+
+    .info__nav-box1,
+    .info__nav-box3,
+    .info__nav-box5,
+    .info__nav-box2,
+    .info__nav-box6,
+    .info__nav-box4 {
+        /* display: grid;
+        grid-column: repeat(2, 1fr); */
+        max-width: 268px;
+        min-height: 273px;
+        top: 743.44px;
+        left: 448px;
+        opacity: 1;
+        border-radius: 30px;
+        background: #43AAFF;
+        box-shadow: 0px 5px 20px 0px #0000001A;
+    }
+
+    /* .info__nav-box1-first {
+        width: 200px;
+    } */
+
+    /* .info__nav-box1-box {
+        width: 200px;
+    } */
+
+    .AboutUs__nav {
+        max-width: 100%;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 900px) {
+    .contacts__nav-hand-img {}
+}
+
+
+
+
+
+
+
+@media (max-width: 855px) {
+    .info__nav {
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* grid-template-columns: repeat(auto-fill, minmax(3px, 1fr)); */
+    }
+
+    .info__nav-box1,
+    .info__nav-box3,
+    .info__nav-box5,
+    .info__nav-box2,
+    .info__nav-box6,
+    .info__nav-box4 {
+        /* display: grid;
+        grid-column: repeat(2, 1fr); */
+        /* max-width: 350px; */
+        /* width: 100%; */
+        /* min-height: 30px; */
+        justify-self: center;
+        /* по горизонтали */
+        align-self: center;
+
+    }
+}
+
+@media (max-width: 557px) {
+    .info__nav {
+        /* display: flex; */
+        /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+        /* grid-template-columns: repeat(2, 1fr);
+        gap: 16px; */
+        /* width: 300px; */
+        /* grid-template-columns: repeat(auto-fit, minmax(100px, 3fr)); */
+    }
+
+    .info__nav-box1,
+    .info__nav-box3,
+    .info__nav-box5,
+    .info__nav-box2,
+    .info__nav-box6,
+    .info__nav-box4 {}
+
+    .info__nav-info-1 {
+
+        font-size: 36px;
+    }
+
+    .contacts__nav-hand-img {
+        display: none;
+    }
+
+    .maps__nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    
+}
+}
